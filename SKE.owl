@@ -22,6 +22,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite">
@@ -247,12 +255,6 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219395</ID>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพวเตอร์_I -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพวเตอร์_I"/>
     
 
 
