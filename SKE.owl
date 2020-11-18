@@ -195,6 +195,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#adsdasd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#adsdasd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#กระบวนการพัฒนาซอฟต์แวร์เชิงเดี่ยว -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#กระบวนการพัฒนาซอฟต์แวร์เชิงเดี่ยว">
