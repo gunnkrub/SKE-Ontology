@@ -1,0 +1,560 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#"
+     xml:base="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE"
+     xmlns:SKE="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#isPrerequisiteOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#isPrerequisiteOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#isPrerequisiteOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#FreshMen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#FreshMen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Grade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Grade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#GradeOfStudent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#GradeOfStudent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Grade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#GradeOfSubject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#GradeOfSubject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Grade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#GradingScore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#GradingScore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Grade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Junior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Junior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Senior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Senior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Sophomore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Sophomore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Student"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#กระบวนการพัฒนาซอฟต์แวร์เชิงเดี่ยว -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#กระบวนการพัฒนาซอฟต์แวร์เชิงเดี่ยว">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219245</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การจัดการกระบวนการและโครงการซอฟต์แวร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การจัดการกระบวนการและโครงการซอฟต์แวร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219346</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การนําเข้าและรวบรวมข้อมูล -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การนําเข้าและรวบรวมข้อมูล">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219335</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การวิเคราะห์ข้อมูล -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การวิเคราะห์ข้อมูล">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219367</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การออกแบบอันตรกิริยา -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การออกแบบอันตรกิริยา">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219382</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การเขียนเชิงเทคนิคสําหรับวิศวกรซอฟต์แวร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การเขียนเชิงเทคนิคสําหรับวิศวกรซอฟต์แวร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219412</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การเตรียมการโครงงานกลุ่มนวัตกรรมซอฟต์แวร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การเตรียมการโครงงานกลุ่มนวัตกรรมซอฟต์แวร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219395</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพวเตอร์_I -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพวเตอร์_I"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219114</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219116</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ข้อกําหนดและการออกแบบซอฟต์แวร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ข้อกําหนดและการออกแบบซอฟต์แวร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219243</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตรืวิศวกรรม_I -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตรืวิศวกรรม_I">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01417167</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตรืวิศวกรรม_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตรืวิศวกรรม_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01417168</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตร์เต็มหน่วยและพีชคณิตเชิงเส้น -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตร์เต็มหน่วยและพีชคณิตเชิงเส้น">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01204211</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ความน่าจะเป็นและสถิติสำหรับวิศวกรซอฟต์แวร์และความรู้ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ความน่าจะเป็นและสถิติสำหรับวิศวกรซอฟต์แวร์และความรู้">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219214</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ความมั่นคงปลอดภัยในการพัฒนาซอฟต์แวร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ความมั่นคงปลอดภัยในการพัฒนาซอฟต์แวร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219325</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ค่ายฝึกพัฒนาซอฟต์แวร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ค่ายฝึกพัฒนาซอฟต์แวร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219211</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ทักษะการสื่อสารสําหรับวิศวกรซอฟต์แวร์และความรู้ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ทักษะการสื่อสารสําหรับวิศวกรซอฟต์แวร์และความรู้">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219313</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏบัติการฟิสิกส์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏบัติการฟิสิกส์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01420113</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการทวนสอบและการตรวจสอบซอฟต์แวร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการทวนสอบและการตรวจสอบซอฟต์แวร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219345</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219115</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219117</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการฟิสิกส์_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการฟิสิกส์_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01420114</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการระบบคอมพิวเตอร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการระบบคอมพิวเตอร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219223</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการโครงสร้างข้อมูลและขั้นตอนวิธี -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการโครงสร้างข้อมูลและขั้นตอนวิธี">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219212</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#พื้นฐานของระบบคอมพิวเตอร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#พื้นฐานของระบบคอมพิวเตอร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219222</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ฟิสิกส์ทั่วไป_I -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ฟิสิกส์ทั่วไป_I">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01420111</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ฟิสิกส์ทั่วไป_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ฟิสิกส์ทั่วไป_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01420112</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ระบบฐานข้อมูลสําหรับวิศวกรซอฟต์แวร์และความรู้ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ระบบฐานข้อมูลสําหรับวิศวกรซอฟต์แวร์และความรู้">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219231</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#วิศวกรรมความรู้และการจัดการความรู้ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#วิศวกรรมความรู้และการจัดการความรู้">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219266</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#วิศวกรรมความรู้และการจัดการความรู้_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#วิศวกรรมความรู้และการจัดการความรู้_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219366</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ศาสตร์แห่งแผ่นดิน -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ศาสตร์แห่งแผ่นดิน">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01999111</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สถาปัตยกรรมเครือข่ายคอมพิวเตอร์และการโปรแกรม -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สถาปัตยกรรมเครือข่ายคอมพิวเตอร์และการโปรแกรม">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219224</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สหกิจศึกษา -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สหกิจศึกษา">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219490</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สัมมนาเชิงเทคนิคและปฏิบัติทางวิศวกรรมซอฟต์แวร์และความรู้ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สัมมนาเชิงเทคนิคและปฏิบัติทางวิศวกรรมซอฟต์แวร์และความรู้">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219497</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#แนวคิดหลักสําหรับสถาปัตยกรรมซอฟต์แวร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#แนวคิดหลักสําหรับสถาปัตยกรรมซอฟต์แวร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219449</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#โครงงานกลุ่มนวัตกรรมซอฟต์แวร์ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#โครงงานกลุ่มนวัตกรรมซอฟต์แวร์">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219499</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#โครงสรางข้อมูลและขั้นตอนวิธี_I -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#โครงสรางข้อมูลและขั้นตอนวิธี_I">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219217</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#โครงสรางข้อมูลและขั้นตอนวิธี_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#โครงสรางข้อมูลและขั้นตอนวิธี_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219218</ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
