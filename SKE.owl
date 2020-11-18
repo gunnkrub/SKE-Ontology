@@ -47,6 +47,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#requireStudentToBe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#requireStudentToBe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Student"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
