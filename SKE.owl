@@ -290,6 +290,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#bobby_johns -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#bobby_johns">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#FreshMen"/>
+        <hasPass rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#กระบวนการพัฒนาซอฟต์แวร์เชิงเดี่ยว -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#กระบวนการพัฒนาซอฟต์แวร์เชิงเดี่ยว">
@@ -351,7 +360,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การเขียนเชิงเทคนิคสําหรับวิศวกรซอฟต์แวร์">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219412</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -362,7 +371,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การเตรียมการโครงงานกลุ่มนวัตกรรมซอฟต์แวร์">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219395</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -373,7 +382,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219114</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -408,7 +417,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตรืวิศวกรรม_I">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2019"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01417167</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -442,7 +451,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ความน่าจะเป็นและสถิติสำหรับวิศวกรซอฟต์แวร์และความรู้">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219214</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -464,7 +473,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ค่ายฝึกพัฒนาซอฟต์แวร์">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219211</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -475,7 +484,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ทักษะการสื่อสารสําหรับวิศวกรซอฟต์แวร์และความรู้">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219313</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -497,7 +506,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219115</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -520,7 +529,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการฟิสิกส์">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01420113</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -580,7 +589,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ฟิสิกส์ทั่วไป_I">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01420111</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -613,7 +622,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#วิศวกรรมความรู้และการจัดการความรู้">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219266</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -635,7 +644,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ศาสตร์แห่งแผ่นดิน">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01999111</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -646,7 +655,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สถาปัตยกรรมเครือข่ายคอมพิวเตอร์และการโปรแกรม">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219224</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -657,7 +666,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สหกิจศึกษา">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219490</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -668,7 +677,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สัมมนาเชิงเทคนิคและปฏิบัติทางวิศวกรรมซอฟต์แวร์และความรู้">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219497</hasID>
         <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
@@ -699,33 +708,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016 -->
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#EntranceExam"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2017 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2017">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#EntranceExam"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2018 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2018">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#EntranceExam"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2019">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#EntranceExam"/>
     </owl:NamedIndividual>
     
