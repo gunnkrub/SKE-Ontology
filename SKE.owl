@@ -124,6 +124,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisiteAmount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisiteAmount">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -289,6 +297,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219245</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -300,6 +309,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_II"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_II"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219346</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -310,6 +320,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ระบบฐานข้อมูลสําหรับวิศวกรซอฟต์แวร์และความรู้"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219335</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -320,6 +331,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#วิศวกรรมความรู้และการจัดการความรู้_II"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219367</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -330,6 +342,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ข้อกําหนดและการออกแบบซอฟต์แวร์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219382</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -340,6 +353,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219412</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -350,6 +364,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219395</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -359,8 +374,8 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2019"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219114</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -372,6 +387,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219116</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -383,6 +399,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_II"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_II"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219243</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -393,6 +410,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2019"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01417167</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -403,6 +421,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตรืวิศวกรรม_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01417168</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -412,9 +431,9 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตร์เต็มหน่วยและพีชคณิตเชิงเส้น">
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตร์เต็มหน่วยและพีชคณิตเชิงเส้น"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01204211</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -425,6 +444,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219214</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -435,6 +455,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ข้อกําหนดและการออกแบบซอฟต์แวร์"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219325</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -445,6 +466,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219211</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -455,6 +477,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219313</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -465,6 +488,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#กระบวนการพัฒนาซอฟต์แวร์เชิงเดี่ยว"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219345</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -475,6 +499,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219115</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -486,6 +511,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219117</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -496,6 +522,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01420113</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -507,6 +534,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการฟิสิกส์"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ฟิสิกส์ทั่วไป_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01420114</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -518,6 +546,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219223</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -530,6 +559,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตร์เต็มหน่วยและพีชคณิตเชิงเส้น"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219212</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -541,6 +571,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219222</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -551,6 +582,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01420111</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -561,6 +593,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ฟิสิกส์ทั่วไป_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01420112</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -571,6 +604,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#โครงสร้างข้อมูลและขั้นตอนวิธี_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219231</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -581,6 +615,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219266</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -591,6 +626,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#วิศวกรรมความรู้และการจัดการความรู้"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219366</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -601,6 +637,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01999111</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -611,6 +648,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219224</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -621,6 +659,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219490</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -631,6 +670,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เอ็นทรานซ์2016"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219497</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -638,10 +678,12 @@
     <!-- http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สิรวิชญ์_ดิ -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สิรวิชญ์_ดิ">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Junior"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Sophomore"/>
         <hasGradeOfSubject rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#เกรดวิชาการโปรแกรมคอมพิวเตอร์_Iของนายสิรวิชญ์"/>
         <hasPass rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_I"/>
         <hasPass rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_II"/>
+        <hasPass rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตร์เต็มหน่วยและพีชคณิตเชิงเส้น"/>
+        <hasPass rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I"/>
         <hasPass rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_II"/>
     </owl:NamedIndividual>
     
@@ -696,6 +738,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การโปรแกรมคอมพิวเตอร์_II"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_II"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219449</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -707,6 +750,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#การเตรียมการโครงงานกลุ่มนวัตกรรมซอฟต์แวร์"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#สหกิจศึกษา"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219499</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -719,6 +763,7 @@
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#คณิตศาสตร์เต็มหน่วยและพีชคณิตเชิงเส้น"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#ปฏิบัติการการโปรแกรมคอมพิวเตอร์_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219217</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -729,6 +774,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#โครงสร้างข้อมูลและขั้นตอนวิธี_I"/>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01219218</hasID>
+        <hasPrerequisiteAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPrerequisiteAmount>
     </owl:NamedIndividual>
     
 
@@ -776,6 +822,9 @@
     <rdf:Description rdf:about="urn:swrl:var#y">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#ya">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#s1">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
@@ -794,47 +843,14 @@
     <rdf:Description rdf:about="urn:swrl:var#ps3">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Subject"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#EntranceExam"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
+    <rdf:Description rdf:about="urn:swrl:var#s1id">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#s2id">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#s3id">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
@@ -844,7 +860,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#FreshMen"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Sophomore"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
                     </rdf:Description>
                 </rdf:first>
@@ -854,7 +870,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year1Subject"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
                             </rdf:Description>
                         </rdf:first>
@@ -863,10 +879,10 @@
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                 <rdf:first>
                                     <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl:var#s1"/>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisiteAmount"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#ya"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest>
@@ -874,166 +890,21 @@
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                         <rdf:first>
                                             <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
-                                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                                <swrl:argument2 rdf:resource="urn:swrl:var#s2"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
+                                                <swrl:arguments>
                                                     <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
-                                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s3"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                                                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl:var#ya"/>
                                                         <rdf:rest>
                                                             <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps3"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                <rdf:first>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s1"/>
-                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:first>
-                                                                                <rdf:rest>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                        <rdf:first>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#s2"/>
-                                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:first>
-                                                                                        <rdf:rest>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                                <rdf:first>
-                                                                                                    <rdf:Description>
-                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s3"/>
-                                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps3"/>
-                                                                                                    </rdf:Description>
-                                                                                                </rdf:first>
-                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:rest>
-                                                                                    </rdf:Description>
-                                                                                </rdf:rest>
-                                                                            </rdf:Description>
-                                                                        </rdf:rest>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                                                             </rdf:Description>
                                                         </rdf:rest>
                                                     </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#canRegister"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Junior"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year3Subject"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl:var#s1"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
-                                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                                <swrl:argument2 rdf:resource="urn:swrl:var#s2"/>
+                                                </swrl:arguments>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest>
@@ -1044,7 +915,7 @@
                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s3"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s1"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                                 <rdf:rest>
@@ -1053,9 +924,9 @@
                                                         <rdf:first>
                                                             <rdf:Description>
                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                                                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl:var#s2"/>
                                                             </rdf:Description>
                                                         </rdf:first>
                                                         <rdf:rest>
@@ -1064,9 +935,9 @@
                                                                 <rdf:first>
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s3"/>
                                                                     </rdf:Description>
                                                                 </rdf:first>
                                                                 <rdf:rest>
@@ -1077,7 +948,7 @@
                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                                                                 <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps3"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
                                                                             </rdf:Description>
                                                                         </rdf:first>
                                                                         <rdf:rest>
@@ -1085,9 +956,10 @@
                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                                                 <rdf:first>
                                                                                     <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s1"/>
-                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
+                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
                                                                                     </rdf:Description>
                                                                                 </rdf:first>
                                                                                 <rdf:rest>
@@ -1095,9 +967,10 @@
                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                                                         <rdf:first>
                                                                                             <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#s2"/>
-                                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
+                                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps3"/>
                                                                                             </rdf:Description>
                                                                                         </rdf:first>
                                                                                         <rdf:rest>
@@ -1105,168 +978,120 @@
                                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                                                                 <rdf:first>
                                                                                                     <rdf:Description>
-                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s3"/>
-                                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps3"/>
+                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasID"/>
+                                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#ps1"/>
+                                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s1id"/>
                                                                                                     </rdf:Description>
                                                                                                 </rdf:first>
-                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:rest>
-                                                                                    </rdf:Description>
-                                                                                </rdf:rest>
-                                                                            </rdf:Description>
-                                                                        </rdf:rest>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#canRegister"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Senior"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year4Subject"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl:var#s1"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
-                                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                                <swrl:argument2 rdf:resource="urn:swrl:var#s2"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
-                                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s3"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                                                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps3"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                <rdf:first>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s1"/>
-                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:first>
-                                                                                <rdf:rest>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                        <rdf:first>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#s2"/>
-                                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:first>
-                                                                                        <rdf:rest>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                                <rdf:first>
+                                                                                                <rdf:rest>
                                                                                                     <rdf:Description>
-                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s3"/>
-                                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps3"/>
+                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                        <rdf:first>
+                                                                                                            <rdf:Description>
+                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasID"/>
+                                                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#ps2"/>
+                                                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#s2id"/>
+                                                                                                            </rdf:Description>
+                                                                                                        </rdf:first>
+                                                                                                        <rdf:rest>
+                                                                                                            <rdf:Description>
+                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                                <rdf:first>
+                                                                                                                    <rdf:Description>
+                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasID"/>
+                                                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#ps3"/>
+                                                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s3id"/>
+                                                                                                                    </rdf:Description>
+                                                                                                                </rdf:first>
+                                                                                                                <rdf:rest>
+                                                                                                                    <rdf:Description>
+                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                                        <rdf:first>
+                                                                                                                            <rdf:Description>
+                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#notEqual"/>
+                                                                                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                                                                                    <rdf:Description rdf:about="urn:swrl:var#s1id"/>
+                                                                                                                                    <rdf:Description rdf:about="urn:swrl:var#s2id"/>
+                                                                                                                                </swrl:arguments>
+                                                                                                                            </rdf:Description>
+                                                                                                                        </rdf:first>
+                                                                                                                        <rdf:rest>
+                                                                                                                            <rdf:Description>
+                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                                                <rdf:first>
+                                                                                                                                    <rdf:Description>
+                                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#notEqual"/>
+                                                                                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                                                                                            <rdf:Description rdf:about="urn:swrl:var#s2id"/>
+                                                                                                                                            <rdf:Description rdf:about="urn:swrl:var#s3id"/>
+                                                                                                                                        </swrl:arguments>
+                                                                                                                                    </rdf:Description>
+                                                                                                                                </rdf:first>
+                                                                                                                                <rdf:rest>
+                                                                                                                                    <rdf:Description>
+                                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                                                        <rdf:first>
+                                                                                                                                            <rdf:Description>
+                                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#notEqual"/>
+                                                                                                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                                                                                                    <rdf:Description rdf:about="urn:swrl:var#s1id"/>
+                                                                                                                                                    <rdf:Description rdf:about="urn:swrl:var#s3id"/>
+                                                                                                                                                </swrl:arguments>
+                                                                                                                                            </rdf:Description>
+                                                                                                                                        </rdf:first>
+                                                                                                                                        <rdf:rest>
+                                                                                                                                            <rdf:Description>
+                                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                                                                <rdf:first>
+                                                                                                                                                    <rdf:Description>
+                                                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
+                                                                                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s1"/>
+                                                                                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
+                                                                                                                                                    </rdf:Description>
+                                                                                                                                                </rdf:first>
+                                                                                                                                                <rdf:rest>
+                                                                                                                                                    <rdf:Description>
+                                                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                                                                        <rdf:first>
+                                                                                                                                                            <rdf:Description>
+                                                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
+                                                                                                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#s2"/>
+                                                                                                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
+                                                                                                                                                            </rdf:Description>
+                                                                                                                                                        </rdf:first>
+                                                                                                                                                        <rdf:rest>
+                                                                                                                                                            <rdf:Description>
+                                                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                                                                                <rdf:first>
+                                                                                                                                                                    <rdf:Description>
+                                                                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
+                                                                                                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s3"/>
+                                                                                                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps3"/>
+                                                                                                                                                                    </rdf:Description>
+                                                                                                                                                                </rdf:first>
+                                                                                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                                                                            </rdf:Description>
+                                                                                                                                                        </rdf:rest>
+                                                                                                                                                    </rdf:Description>
+                                                                                                                                                </rdf:rest>
+                                                                                                                                            </rdf:Description>
+                                                                                                                                        </rdf:rest>
+                                                                                                                                    </rdf:Description>
+                                                                                                                                </rdf:rest>
+                                                                                                                            </rdf:Description>
+                                                                                                                        </rdf:rest>
+                                                                                                                    </rdf:Description>
+                                                                                                                </rdf:rest>
+                                                                                                            </rdf:Description>
+                                                                                                        </rdf:rest>
                                                                                                     </rdf:Description>
-                                                                                                </rdf:first>
-                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                </rdf:rest>
                                                                                             </rdf:Description>
                                                                                         </rdf:rest>
                                                                                     </rdf:Description>
@@ -1331,10 +1156,10 @@
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                 <rdf:first>
                                     <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl:var#s1"/>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisiteAmount"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#ya"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest>
@@ -1342,10 +1167,21 @@
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                         <rdf:first>
                                             <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
-                                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                                <swrl:argument2 rdf:resource="urn:swrl:var#s2"/>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl:var#ya"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest>
@@ -1356,7 +1192,203 @@
                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s3"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s1"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl:var#s2"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasID"/>
+                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#ps1"/>
+                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s1id"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasID"/>
+                                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#ps2"/>
+                                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#s2id"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                <rdf:first>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#notEqual"/>
+                                                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                                                            <rdf:Description rdf:about="urn:swrl:var#s1id"/>
+                                                                                                            <rdf:Description rdf:about="urn:swrl:var#s2id"/>
+                                                                                                        </swrl:arguments>
+                                                                                                    </rdf:Description>
+                                                                                                </rdf:first>
+                                                                                                <rdf:rest>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                        <rdf:first>
+                                                                                                            <rdf:Description>
+                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
+                                                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#s1"/>
+                                                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
+                                                                                                            </rdf:Description>
+                                                                                                        </rdf:first>
+                                                                                                        <rdf:rest>
+                                                                                                            <rdf:Description>
+                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                                <rdf:first>
+                                                                                                                    <rdf:Description>
+                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
+                                                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s2"/>
+                                                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
+                                                                                                                    </rdf:Description>
+                                                                                                                </rdf:first>
+                                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                            </rdf:Description>
+                                                                                                        </rdf:rest>
+                                                                                                    </rdf:Description>
+                                                                                                </rdf:rest>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:rest>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#canRegister"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Sophomore"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#Year2Subject"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisiteAmount"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#ya"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl:var#ya"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPass"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl:var#s1"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                                 <rdf:rest>
@@ -1375,62 +1407,12 @@
                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                                 <rdf:first>
                                                                     <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s1"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
                                                                     </rdf:Description>
                                                                 </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gunnk/ontologies/2020/10/SKE#hasPrerequisite"/>
-                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps3"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                <rdf:first>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s1"/>
-                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps1"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:first>
-                                                                                <rdf:rest>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                        <rdf:first>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                                <swrl:argument1 rdf:resource="urn:swrl:var#s2"/>
-                                                                                                <swrl:argument2 rdf:resource="urn:swrl:var#ps2"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:first>
-                                                                                        <rdf:rest>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                                <rdf:first>
-                                                                                                    <rdf:Description>
-                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#SameIndividualAtom"/>
-                                                                                                        <swrl:argument1 rdf:resource="urn:swrl:var#s3"/>
-                                                                                                        <swrl:argument2 rdf:resource="urn:swrl:var#ps3"/>
-                                                                                                    </rdf:Description>
-                                                                                                </rdf:first>
-                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:rest>
-                                                                                    </rdf:Description>
-                                                                                </rdf:rest>
-                                                                            </rdf:Description>
-                                                                        </rdf:rest>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                                                             </rdf:Description>
                                                         </rdf:rest>
                                                     </rdf:Description>
